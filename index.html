@@ -1,61 +1,731 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BrightMind Ethiopia</title>
+
+<title>BrightMind Ethiopia | Mental Health & Wellbeing</title>
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <div class="logo">🌿 BrightMind Ethiopia</div>
-    <nav>
+<!-- =========================
+     Page Loader
+========================= -->
+<div id="loader">
+    <div class="loader-text">
+        BrightMind Ethiopia
+    </div>
+</div>
+
+<!-- =========================
+     Site Header
+========================= -->
+<header class="site-header">
+
+    <div class="logo">
+        <img src="logo.png"
+             class="logo-img"
+             alt="BrightMind Ethiopia Logo">
+
+        <span>BrightMind Ethiopia</span>
+    </div>
+
+    <nav aria-label="Primary Navigation">
         <a href="#about">About</a>
         <a href="#services">Services</a>
+        <a href="#resources">Resources</a>
+        <a href="#founder">Founder</a>
         <a href="#contact">Contact</a>
     </nav>
+
 </header>
 
-<section class="hero">
-    <h1>Support • Growth • Wellbeing ✨</h1>
-    <p>Mental health awareness and counseling platform.</p>
+<main>
+
+<!-- =========================
+     Hero Section
+========================= -->
+
+<section
+    id="home"
+    class="hero-slider"
+    aria-label="Welcome to BrightMind Ethiopia">
+    <div class="slide active">
+        <img src="slide1.jpg" alt="Mental Health">
+    </div>
+
+    <div class="slide">
+        <img src="slide2.jpg" alt="Counseling">
+    </div>
+
+    <div class="slide">
+        <img src="slide3.jpg" alt="Personal Growth">
+    </div>
+
+    <div class="hero-overlay">
+
+        <img src="dawit-abera.jpg" alt="Dawit Abera" class="profile-photo">
+
+        <h1>🧠 BrightMind Ethiopia</h1>
+
+        <h2>Wellbeing Starts Here. Together.</h2>
+
+        <p>
+            Mental Health Awareness • Counseling • Family Support • Personal Growth
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#contact" class="btn-primary">
+                📅 Book Appointment
+            </a>
+
+            <a href="https://t.me/BrightMind_ET1"
+target="_blank"
+class="btn-secondary">
+📢 Join Telegram
+</a>
+
+        </div>
+
+    </div>
+
 </section>
 
-<section id="about" class="card">
-    <h2>About</h2>
+<!-- STATISTICS -->
+
+<section class="stats-section">
+
+    <h2>Our Impact</h2>
+
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <h3>500+</h3>
+            <p>Mental Health Posts</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>1,000+</h3>
+            <p>Community Members Reached</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>24/7</h3>
+            <p>Online Support</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>100%</h3>
+            <p>Confidential Guidance</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="section card">
+
+    <h2>About BrightMind Ethiopia</h2>
+
     <p>
-        BrightMind Ethiopia is a professional mental health awareness and counseling platform
-        created by Dawit Abera.
+        BrightMind Ethiopia is a professional mental health and wellbeing platform dedicated to improving emotional, psychological, and social wellbeing.
     </p>
+
+    <p>
+        We provide mental health education, counseling support, family guidance, relationship support, student counseling, and personal growth resources.
+    </p>
+
+    <p>
+        Our mission is to reduce stigma, promote awareness, and empower individuals to build healthier minds and stronger relationships.
+    </p>
+
 </section>
 
-<section id="services" class="card">
-    <h2>Services</h2>
-    <ul>
-        <li>Mental Health Awareness</li>
-        <li>Stress Management Support</li>
-        <li>Student Counseling</li>
-        <li>Online Counseling</li>
-    </ul>
+<!-- VISION & MISSION -->
+
+<section class="section">
+
+    <h2 class="section-title">Our Vision & Mission</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>🌍 Vision</h3>
+            <p>
+                To create a mentally healthier Ethiopia where individuals,
+                families, and communities can thrive emotionally,
+                socially, and psychologically.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🎯 Mission</h3>
+            <p>
+                To provide accessible mental health education,
+                counseling support, emotional guidance,
+                and personal development resources.
+            </p>
+        </div>
+
+    </div>
+
 </section>
 
-<section class="stats">
-    <div>100+ Students Supported</div>
-    <div>24/7 Online Support</div>
-    <div>Confidential Guidance</div>
+<!-- FOUNDER -->
+
+<section id="founder" class="section card">
+
+    <h2>Founder Profile</h2>
+
+    <h3>Dawit Abera</h3>
+
+    <p>
+        Psychiatric Professional | Mental Health Advocate | Founder of BrightMind Ethiopia
+    </p>
+
+    <p>
+        BrightMind Ethiopia was created to provide accessible mental health awareness, counseling guidance, and emotional support for individuals, students, families, and communities.
+    </p>
+
+    <p>
+        The platform combines evidence-based psychological knowledge with compassionate support to promote resilience, wellbeing, and personal development.
+    </p>
+
+    <div class="founder-quote">
+        "Seeking support is not a sign of weakness. It is a step toward growth, healing, and resilience."
+        <br><br>
+        — Dawit Abera
+    </div>
+
 </section>
 
-<section id="contact" class="card">
-    <h2>Contact</h2>
-    <p>📞 +251988145954</p>
-    <p>📢 Telegram: @BrightMind_ET1</p>
+<!-- SERVICES -->
+
+<section id="services" class="section">
+
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>🧠 Mental Health Awareness</h3>
+            <p>Professional education and awareness resources.</p>
+        </div>
+
+        <div class="card">
+            <h3>💬 Individual Counseling</h3>
+            <p>Personal support and guidance.</p>
+        </div>
+
+        <div class="card">
+            <h3>👨‍👩‍👧 Family Counseling</h3>
+            <p>Strengthening family relationships.</p>
+        </div>
+
+        <div class="card">
+            <h3>❤️ Relationship Counseling</h3>
+            <p>Healthy communication and connection.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌿 Stress Management</h3>
+            <p>Healthy coping strategies and wellbeing.</p>
+        </div>
+
+        <div class="card">
+            <h3>🎓 Student Counseling</h3>
+            <p>Academic and emotional support.</p>
+        </div>
+
+        <div class="card">
+            <h3>🗣 Communication Skills</h3>
+            <p>Developing healthier interactions.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌱 Personal Growth</h3>
+            <p>Building confidence and resilience.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- RESOURCES -->
+
+<section id="resources" class="section">
+
+    <h2 class="section-title">Featured Resources</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>😌 Understanding Stress</h3>
+            <p>Learn practical strategies for managing daily stress.</p>
+        </div>
+
+        <div class="card">
+            <h3>🗣 Healthy Communication</h3>
+            <p>Improve relationships through effective communication.</p>
+        </div>
+
+        <div class="card">
+            <h3>🧠 Managing Anxiety</h3>
+            <p>Evidence-based approaches to emotional wellbeing.</p>
+        </div>
+
+        <div class="card">
+            <h3>📚 Study Success</h3>
+            <p>Focus, productivity, and academic wellbeing.</p>
+        </div>
+
+    </div>
+    </section>
+<!-- BLOG SECTION -->
+
+<section class="blog-section" id="blog">
+
+    <h2 class="section-title">Latest Articles</h2>
+
+    <div class="blog-grid">
+
+        <div class="blog-card">
+
+            <img src="stress.jpg" alt="Stress Management">
+
+            <div class="blog-content">
+
+                <span class="blog-date">June 2026</span>
+
+                <h3>Understanding Stress</h3>
+
+                <p>
+                    Learn practical techniques to manage daily stress
+                    and improve emotional wellbeing.
+                </p>
+
+                <a href="#" class="read-btn">Read More</a>
+
+            </div>
+
+        </div>
+
+        <div class="blog-card">
+
+            <img src="communication.jpg" alt="Communication">
+
+            <div class="blog-content">
+
+                <span class="blog-date">June 2026</span>
+
+                <h3>Healthy Communication</h3>
+
+                <p>
+                    Build stronger relationships through effective
+                    communication skills.
+                </p>
+
+                <a href="#" class="read-btn">Read More</a>
+
+            </div>
+
+        </div>
+
+        <div class="blog-card">
+
+            <img src="student.jpg" alt="Student Support">
+
+            <div class="blog-content">
+
+                <span class="blog-date">June 2026</span>
+
+                <h3>Student Mental Wellbeing</h3>
+
+                <p>
+                    Practical guidance for academic success and
+                    emotional resilience.
+                </p>
+
+                <a href="#" class="read-btn">Read More</a>
+
+            </div>
+
+        </div>
+
+   </div>
+
+</section>
+<!-- GALLERY SECTION -->
+
+<section class="gallery-section">
+
+    <h2 class="section-title">Mental Health Gallery</h2>
+
+    <p class="gallery-subtitle">
+        Supporting wellbeing, personal growth, education, and community awareness.
+    </p>
+
+    <div class="gallery-grid slider">
+
+        <div class="gallery-item">
+            <img src="gallery1.jpg" alt="Mental Health Awareness">
+            <div class="gallery-overlay">
+                <h3>Mental Health Awareness</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery2.jpg" alt="Counseling Support">
+            <div class="gallery-overlay">
+                <h3>Counseling Support</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery3.jpg" alt="Student Support">
+            <div class="gallery-overlay">
+                <h3>Student Support</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery4.jpg" alt="Personal Growth">
+            <div class="gallery-overlay">
+                <h3>Personal Growth</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery5.jpg" alt="Family Guidance">
+            <div class="gallery-overlay">
+                <h3>Family Guidance</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery6.jpg" alt="Community Education">
+            <div class="gallery-overlay">
+                <h3>Community Education</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- TESTIMONIALS -->
+
+<section class="testimonials-section">
+
+    <h2>Community Feedback</h2>
+
+    <div class="testimonial-grid">
+
+        <div class="testimonial-card">
+            <p>
+                "BrightMind Ethiopia provides valuable mental health education and support."
+            </p>
+            <h4>— Community Member</h4>
+        </div>
+
+        <div class="testimonial-card">
+            <p>
+                "The content is practical, professional, and easy to understand."
+            </p>
+            <h4>— Student</h4>
+        </div>
+
+        <div class="testimonial-card">
+            <p>
+                "A positive platform promoting emotional wellbeing and growth."
+            </p>
+            <h4>— Follower</h4>
+        </div>
+
+    </div>
+
+</section>
+<!-- PRICING & SERVICES -->
+
+<section class="pricing-section">
+
+    <h2>Professional Support Services</h2>
+
+    <div class="pricing-grid">
+
+        <div class="pricing-card">
+            <h3>🎓 Student Support</h3>
+            <p>Academic stress, motivation, study skills, and personal growth guidance.</p>
+            <span>Available Online</span>
+        </div>
+
+        <div class="pricing-card featured">
+            <h3>💬 Individual Counseling</h3>
+            <p>Confidential emotional support and counseling sessions.</p>
+            <span>Most Requested</span>
+        </div>
+
+        <div class="pricing-card">
+            <h3>👨‍👩‍👧 Family Guidance</h3>
+            <p>Support for family communication and relationship challenges.</p>
+            <span>Available Online</span>
+        </div>
+
+    </div>
+
+</section>
+<!-- CONTACT -->
+
+<section id="contact" class="section card">
+
+    <h2>Contact Information</h2>
+
+    <p>📞 Phone: +251 988 145 954</p>
+    <p>📧 Email: dawit041@gmail.com</p>
+    <p>📢 Telegram Channel: @BrightMind_ET1</p>
     <p>💬 Private Support: @utopi1</p>
+
 </section>
 
-<footer>
-    © 2026 BrightMind Ethiopia
+<!-- BOOKING -->
+
+<<form class="form" id="bookingForm">
+
+    <label for="fullName">Full Name</label>
+    <input
+        id="fullName"
+        name="fullName"
+        type="text"
+        placeholder="Enter your full name"
+        required>
+
+    <label for="email">Email Address</label>
+    <input
+        id="email"
+        name="email"
+        type="email"
+        placeholder="example@email.com"
+        required>
+
+    <label for="phone">Phone Number</label>
+    <input
+        id="phone"
+        name="phone"
+        type="tel"
+        placeholder="+251..."
+        required>
+
+    <label for="service">Select Service</label>
+    <select
+        id="service"
+        name="service"
+        required>
+
+        <option value="">Choose a Service</option>
+
+        <option>Mental Health Awareness</option>
+        <option>Individual Counseling</option>
+        <option>Family Counseling</option>
+        <option>Relationship Counseling</option>
+        <option>Student Counseling</option>
+
+    </select>
+
+    <label for="appointmentDate">
+        Preferred Appointment Date
+    </label>
+
+    <input
+        id="appointmentDate"
+        name="appointmentDate"
+        type="date"
+        required>
+
+    <label for="message">
+        Tell us how we can help
+    </label>
+
+    <textarea
+        id="message"
+        name="message"
+        rows="5"
+        placeholder="Briefly describe your concern..."
+        required></textarea>
+
+    <button type="submit">
+        Book Appointment
+    </button>
+
+    <p id="successMessage"></p>
+
+</form>
+
+</section>
+
+<!-- FLOATING BUTTONS -->
+
+<a href="https://t.me/utopi1"
+target="_blank"
+class="floating-btn telegram">
+💬 Telegram
+</a>
+
+<a href="tel:+251988145954" class="floating-btn call">
+📞 Call
+</a>
+
+</main>
+
+<!-- =========================
+     Footer
+========================= -->
+
+<footer class="premium-footer" role="contentinfo">
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h3>🌿 BrightMind Ethiopia</h3>
+
+            <p>
+                Supporting mental wellbeing, strengthening relationships,
+                and empowering personal growth across Ethiopia.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p>📞 +251 988 145 954</p>
+            <p>📧 dawit041@gmail.com</p>
+            <p>📢 @BrightMind_ET1</p>
+            <p>💬 @utopi1</p>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 BrightMind Ethiopia | All Rights Reserved
+    </div>
+
 </footer>
 
+<script>
+window.addEventListener("load", function() {
+    document.getElementById("loader").style.display = "none";
+});
+</script>
+
+<!-- SLIDER SCRIPT -->
+<script>
+
+let slides = document.querySelectorAll(".slide");
+let current = 0;
+
+setInterval(() => {
+
+    slides[current].classList.remove("active");
+
+    current++;
+
+    if(current >= slides.length){
+        current = 0;
+    }
+
+    slides[current].classList.add("active");
+
+}, 5000);
+
+</script>
+<script>
+
+const gallery=document.querySelector(".gallery-grid");
+
+if(gallery){
+
+setInterval(()=>{
+
+gallery.appendChild(
+gallery.firstElementChild
+);
+
+},5000);
+
+}
+
+</script>
+<script>
+const bookingForm = document.getElementById("bookingForm");
+const successMessage = document.getElementById("successMessage");
+
+if (bookingForm) {
+  bookingForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    const submitButton = bookingForm.querySelector('button[type="submit"]');
+    const originalButtonText = submitButton.textContent;
+
+    const formData = {
+      fullName: document.getElementById("fullName").value.trim(),
+      email: document.getElementById("email").value.trim(),
+      phone: document.getElementById("phone").value.trim(),
+      service: document.getElementById("service").value,
+      appointmentDate: document.getElementById("appointmentDate").value,
+      message: document.getElementById("message").value.trim()
+    };
+
+    submitButton.disabled = true;
+    submitButton.textContent = "Sending...";
+    successMessage.textContent = "";
+
+    try {
+      const response = await fetch("/.netlify/functions/book-appointment", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData)
+      });
+
+      const result = await response.json();
+
+      if (!response.ok || !result.success) {
+        throw new Error(result.error || "Unable to send appointment.");
+      }
+
+      successMessage.textContent =
+        "✓ Your appointment request was sent. We will contact you soon.";
+      successMessage.style.color = "#166534";
+      bookingForm.reset();
+
+    } catch (error) {
+      successMessage.textContent =
+        "Unable to send your request. Please try again or contact us by phone.";
+      successMessage.style.color = "#b91c1c";
+    } finally {
+      submitButton.disabled = false;
+      submitButton.textContent = originalButtonText;
+    }
+  });
+}
+</script>
 </body>
 </html>
